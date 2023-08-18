@@ -25,7 +25,7 @@ function addTodo() {
 
     todoList.appendChild(listItem);
 
-    // Clear input field
+    // Clear input fields
     todoInput.value = "";
 }
 
