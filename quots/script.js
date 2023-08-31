@@ -3,12 +3,12 @@ const quotes = [
     {
         quote: "The only way to do great work is to love what you do.",
         author: "Steve Jobs",
-        photo: ""
+        photo: "images/img1.jpg"
     },
     {
         quote: "In three words I can sum up everything I've learned about life: it goes on.",
         author: "Robert Frost",
-        photo: ""
+        photo: "images/img1.jpg"
     },
 
 ];
