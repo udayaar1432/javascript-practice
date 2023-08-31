@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.heading {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.input {
+    width: 40%;
+    margin: 10px 0px;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+table,
+th,
+td {
+    border: 2px solid;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    /* background-color: black; */
+    color: rgb(233, 220, 220);
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+}

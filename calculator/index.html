@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+
+<body>
+    <section class="main">
+        <h1 class="heading">calculator</h1>
+        <input class="input" type="text" id="result" placeholder="Enter..." readonly>
+        <table>
+            <tr>
+                <td rowspan="2"><button onclick="appendNumber('sin');performOperation('sin')">sin</button></td>
+                <td rowspan="2"><button onclick="appendNumber('cos');performOperation('cos')">cos</button></td>
+                <th> <button onclick="appendNumber('(')">(</button></th>
+                <th><button onclick="appendNumber(')')">)</button> </th>
+                <th><button onclick="clearInput()">C</button></th>
+                <th><button onclick="appendNumber('%')">%</button></th>
+
+
+            </tr>
+            <tr>
+                <td><button onclick="appendNumber(7)">7</button></td>
+                <td><button onclick="appendNumber(8)">8</button></td>
+                <td><button onclick="appendNumber(9)">9</button></td>
+                <th><button onclick="performOperation('/')">/</button></th>
+            </tr>
+            <tr>
+                <td rowspan="2"><button onclick="appendNumber('tan');performOperation('tan')">tan</button></td>
+                <td rowspan="2"><button onclick="appendNumber('cot');performOperation('cot')">cot</button></td>
+                <td><button onclick="appendNumber(4)">4</button></td>
+                <td><button onclick="appendNumber(5)">5</button></td>
+                <td><button onclick="appendNumber(6)">6</button></td>
+                <th><button onclick="performOperation('*')">*</button></th>
+            </tr>
+            <tr>
+                <td><button onclick="appendNumber(1)">1</button></td>
+                <td><button onclick="appendNumber(2)">2</button></td>
+                <td><button onclick="appendNumber(3)">3</button></td>
+                <th><button onclick="performOperation('-')">-</button></th>
+            </tr>
+            <tr>
+                <td rowspan="2"><button onclick="appendNumber('csc');performOperation('csc')">csc</button></td>
+                <td rowspan="2"><button onclick="appendNumber('sec');performOperation('sec')">sec</button></td>
+                <td><button onclick="appendNumber(0)">0</button></td>
+                <td><button onclick="appendNumber('.')">.</button></td>
+                <td rowspan=""><button onclick="calculateResult()">=</button></td>
+                <td rowspan=""><button onclick="performOperation('+')">+</button></td>
+            </tr>
+        </table>
+    </section>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
